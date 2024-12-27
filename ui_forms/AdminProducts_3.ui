@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1080</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(16,16,16,255);
+border-radius:20px;</string>
+   </property>
+   <widget class="QPushButton" name="AdminPanLogOff">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#AdminPanLogOff{
+background-color:rgba(255,125,0,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#AdminPanLogOff:pressed{
+background-color:rgba(255,150,0,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string> Log OFF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_all">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>90</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_all{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_all:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AdminProBack">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#AdminProBack{
+background-color:rgba(150,150,150,255);
+color:rgb(255,255,255);
+border-radius:20px;
+}
+
+QPushButton#AdminProBack:pressed{
+background-color:rgba(200,200,200,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string></string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_edit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>390</y>
+      <width>90</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_edit{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_edit:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>90</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_add{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_add:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LockImage">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>10</y>
+      <width>781</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>100</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(0,255,0,255);
+align:center</string>
+    </property>
+    <property name="text">
+     <string></string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_delete">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>590</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_delete{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_delete:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_update">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>590</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_update{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_update:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LockImage_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>10</y>
+      <width>281</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(255,255,255,255);
+align:center;
+background-color: rgba(255, 255, 255, 100);</string>
+    </property>
+    <property name="text">
+     <string>Products</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdName">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>520</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>510</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Payment Method:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdPayMeth">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>510</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>520</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Product Name:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdPrice">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>360</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdCond">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>431</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdSupp">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>440</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>440</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Supplier ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>431</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Condition:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>360</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Price:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdType">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>360</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Product Type:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>230</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Search By Name  :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>300</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>ID :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="id_label">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>300</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>N°</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_search">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>230</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_search{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_search:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Get Data</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="search_combo">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>230</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox#search_combo{
+background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_refresh">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>230</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#btn_refresh{
+background-color:rgba(0,240,100,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#btn_refresh:pressed{
+background-color:rgba(0,255,150,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Refresh</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>290</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string>Quantity On Hand</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="AdminProdQuantity">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(75,75,75,200);
+color:rgb(0,255,0);
+border-radius:2px;
+border:1px solid rgba(0,0,0,0);
+border-bottom-color:rgba(75,150,75,255);
+padding-left:10px;
+padding-bottom:3px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Close">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>30</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee UI</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Close{
+background-color:rgba(240,0,0,255);
+color:rgb(0,0,0);
+border-radius:5px;
+}
+
+QPushButton#Close:pressed{
+background-color:rgba(255,0,0,255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
