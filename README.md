@@ -1,22 +1,27 @@
 # GUI-Based Shopping System with Database Integration Using PyQt5
-A user-friendly and efficient shopping system built with PyQt5 for the GUI and integrated with a relational database (PostgreSQL or MySQL). This application allows admins to manage products, customers, and suppliers, while customers can browse products, manage their cart, and view invoices.
+
+---
+
+## Project Overview
+
+This project features a user-friendly shopping system with a **PyQt5-based GUI** integrated with a relational database backend (PostgreSQL or MySQL). It supports distinct user roles, allowing **admins** to manage products, customers, and suppliers, while **customers** can browse products, manage their shopping carts, and view invoices. The modular design facilitates scalability and easy feature expansion.
 
 ---
 
 ## Features
 
-- **User Roles**:
-  - **Admin**: Manage customers, products, and suppliers.
-  - **Customer**: Browse products, manage cart, and view invoices.
-  
-- **Database Support**:
-  - Compatible with PostgreSQL or MySQL for robust data storage.
-  
-- **Ease of Use**:
-  - Interactive and role-specific panels for admins and customers.
-  
-- **Scalable**:
-  - Modular code structure to easily add new features.
+- **Role-Based Access:**
+  - **Admin:** Full control over customers, products, and suppliers management.
+  - **Customer:** Product browsing, cart management, and invoice viewing.
+
+- **Database Support:**
+  - Compatible with PostgreSQL and MySQL for reliable, scalable data storage.
+
+- **Intuitive Interface:**
+  - Interactive, role-specific panels tailored for admins and customers.
+
+- **Modular & Scalable:**
+  - Clean codebase with modular structure to support future feature additions.
 
 ---
 
@@ -40,9 +45,9 @@ A user-friendly and efficient shopping system built with PyQt5 for the GUI and i
 
 ## Prerequisites
 
-- Python 3.8 or higher
-- PostgreSQL or MySQL
-- Required libraries:
+- Python 3.8 or higher  
+- PostgreSQL or MySQL server installed  
+- Required Python packages:  
   ```bash
   pip install PyQt5 mysql-connector-python psycopg2
   ```
@@ -117,30 +122,24 @@ DatabaseConfig = {
 
 Refer to the Entity Relationship Diagram (ERD) for an overview of the database structure:
 
-![ERD Diagram](erd_diagram.png)
+<img width="1007" height="1393" alt="diagram" src="https://github.com/user-attachments/assets/7389e49d-0642-44a9-b247-d3c9a0b7dc1e" />
 
 ---
 
-## Customization
+## Extending the Application
 
-- **Adding New Features**:
-  - Create a new UI file in the `ui_forms/` directory.
-  - Add the corresponding logic in a new Python module.
-  - Register the new feature in `main.py`.
+- **Adding Features**:
+  Add UI files under ui_forms/, implement corresponding logic modules, and register new features in main.py.
 
 - **Modifying Database**:
-  - Update `sample_database.sql` for schema changes.
-  - Adjust queries in the respective Python modules.
+  Update sample_database.sql schema and adjust queries across relevant modules accordingly.
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-- Add analytics dashboards for sales and customer trends.
-- Integrate third-party APIs for payments and supplier management.
-- Introduce additional user roles like delivery personnel.
+- Sales and customer analytics dashboard.
+- Integration with payment gateways and supplier APIs.
+- Additional user roles (e.g., delivery personnel).
 
 ---
-
-
-For questions or issues, contact [egad@uwo.ca](mailto:egad@uwo.ca).
